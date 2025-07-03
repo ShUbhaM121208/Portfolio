@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -7,15 +7,20 @@ const Contact = () => {
   const form = useRef();
   const [isSent, setIsSent] = useState(false);
 
+  // Optional: initialize emailjs
+  useEffect(() => {
+    emailjs.init("srGMoqnc_s7P3SZ1l"); // Your public key
+  }, []);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_axbtt7a",  // Replace with your EmailJS Service ID
-        "template_1ziboq3",  // Replace with your EmailJS Template ID
+        "service_8ostgdd",       // ✅ Your EmailJS Service ID
+        "template_cpiuepq",      // ✅ Fixed: Correct Template ID
         form.current,
-        "Rz7W9pVF0HdDryNNL"  // Replace with your EmailJS Public Key
+        "srGMoqnc_s7P3SZ1l"      // ✅ Your EmailJS Public Key
       )
       .then(
         () => {
@@ -32,7 +37,7 @@ const Contact = () => {
           });
         },
         (error) => {
-          console.error("Error sending message:", error);
+          console.error("Error sending message:", error); // See full error
           toast.error("Failed to send message. Please try again.", {
             position: "top-right",
             autoClose: 3000,
@@ -51,7 +56,6 @@ const Contact = () => {
       id="contact"
       className="flex flex-col items-center justify-center py-24 px-[12vw] md:px-[7vw] lg:px-[20vw]"
     >
-      {/* Toast Container */}
       <ToastContainer />
 
       {/* Section Title */}
@@ -98,8 +102,7 @@ const Contact = () => {
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
-          
-          {/* Send Button */}
+
           <button
             type="submit"
             className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
