@@ -53,6 +53,16 @@ import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
+import taskManagerLogo from './assets/work_logo/taskManagerLogo.png';
+import pokiemonLogo from './assets/work_logo/pokiemonLogo.png';
+import weatherAppLogo from './assets/work_logo/weatherAppLogo.png';
+import quickStayLogo from './assets/work_logo/quickStayLogo.png';
+import youtubeCloneLogo from './assets/work_logo/youtubeCloneLogo.png';
+import passwordGenLogo from './assets/work_logo/passwordGenLogo.png';
+import musicNextjsLogo from './assets/work_logo/musicNextjsLogo.png';
+import gitHub from './assets/work_logo/gitHub.png';
+import supaLoga from './assets/tech_logo/supaLoga.webp';
+
 
 export const SkillsInfo = [
   {
@@ -77,7 +87,7 @@ export const SkillsInfo = [
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
-      { name: 'Supabase', logo: postgreLogo }
+      { name: 'Supabase', logo: supaLoga }
     ],
   },
   {
@@ -234,59 +244,110 @@ export const SkillsInfo = [
       title: "Github Search",
       description:
         "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
+      image: gitHub,
       tags: ["HTML","TAILWINDCSS"],
       github: "https://github.com/ShUbhaM121208/github_search.git",
       webapp: "https://github-search-sigma-henna.vercel.app/",
     },
     {
-      id: 4,
-      title: "Weather App",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "API", "HTML", "CSS"],
-      github: "https://github.com/ShUbhaM121208/weather_app.git",
-      webapp: "https://weather-app-mu-olive-47.vercel.app/",
-    },
+  id: 4,
+  title: "Weather App",
+  description: "A responsive weather dashboard built with React.js and OpenWeatherMap API. Users can search any city worldwide to get current conditions, temperature, humidity, wind speed, and a 5‑day forecast, with dynamic icons and adaptive theming.",
+  image: weatherAppLogo, // import this image at the top of your file
+  tags: ["React JS", "API", "Weather", "CSS", "JavaScript"],
+  github: "https://github.com/youruser/weather-app", // replace with your actual repo URL
+  webapp: "https://weather-app-mu-olive-47.vercel.app/",
+},
+
+//     // {
+//     //   id: 5,
+//     //   title: "Webverse Digital",
+//     //   description:
+//     //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+//     //   image: webverLogo,
+//     //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
+//     //   github: "https://github.com/codingmastr/Webverse-Digital",
+//     //   webapp: "https://webversedigital.com/",
+//     // },
     {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
+  id: 6,
+  title: "Quick Stay",
+  description:
+    "A full‑stack hotel booking platform built with React.js frontend and a Node.js + Express backend, secured with Clerk authentication, and powered by MongoDB for data storage. Users can browse hotels, view room details, book stays, and manage bookings seamlessly.",
+  image: quickStayLogo, // replace with your actual logo import or image path
+  tags: ["React JS", "Node.js", "MongoDB", "Express", "Clerk", "Strive"],
+  github: "https://github.com/yourusername/quick-stay", // update with your actual repo link
+  webapp: "https://quick-stay-gules.vercel.app/"
+},
     {
-      id: 6,
-      title: "Quick Stay",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Clerk","Strive"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
+  id: 7,
+  title: "YouTube Clone",
+  description:
+    "A YouTube‑inspired web app using React and Tailwind, integrating the YouTube Data API to fetch trending and searched videos. Features responsive video playback, infinite scrolling, channel info, and seamless navigation between home, search, and watch pages.",
+  image: youtubeCloneLogo, // import your project’s thumbnail or logo asset
+  tags: ["React JS", "Tailwind CSS", "YouTube Data API", "Infinite Scroll", "Responsive Design", "JavaScript"],
+  github: "https://github.com/yourusername/youtube-clone", // swap for your GitHub repo
+  webapp: "https://youtube-clone-mauve-gamma.vercel.app/",
+},
+
+//     {
+//       id: 8,
+//       title: "Task Manager",
+//       description:
+//         "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+//       image: removebgLogo,
+//       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
+//       github: "https://github.com/codingmastr/Image-Background-Remover",
+//       webapp: "https://removeyourbg.netlify.app/",
+//     },
     {
-      id: 7,
-      title: "Youtube App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    // {
-    //   id: 8,
-    //   title: "Image Background Remover",
-    //   description:
-    //     "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-    //   image: removebgLogo,
-    //   tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    //   github: "https://github.com/codingmastr/Image-Background-Remover",
-    //   webapp: "https://removeyourbg.netlify.app/",
-    // },
+    id: 9,
+    title: "Password Generator",
+    description:
+      "A secure, customizable password generator built with React.js. Users can set password length and toggle inclusion of uppercase, lowercase, numbers, and symbols, then copy the generated password for use.",
+    image: passwordGenLogo, // replace with your imported logo/image
+    tags: ["React JS", "JavaScript", "HTML", "CSS", "Image Processing"],
+    github: "https://github.com/your-username/password-generator",
+    webapp: "https://paasword-generator-phi.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Music Player",
+    description:
+      "A sleek music streaming app built with Next.js, featuring an intuitive UI, dynamic playlist management, and seamless audio playback. Users can browse tracks, create playlists, and enjoy their favorite music.",
+    image: musicNextjsLogo, // ensure you've imported or defined this image reference
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "API Integration",
+      "Audio Streaming",
+      "React Hooks"
+    ],
+    github: "https://github.com/your-username/music-nextjs",
+    webapp: "https://music-nextjs-x2e2.vercel.app/"
+},
+{
+  id: 11,
+  title: "Pokiemon",
+  description:
+    "A fun Pokémon-themed quiz app built with HTML, CSS, and JavaScript. Players are shown an image of a Pokémon and must guess its name. Features include score tracking, multiple rounds, and dynamic feedback.",
+  image: pokiemonLogo, // update this with the actual imported image variable
+  tags: ["HTML", "CSS", "JavaScript", "Quiz", "DOM Manipulation"],
+  github: "https://github.com/Shubham121208/pokiemon",
+  webapp: "https://shubham121208.github.io/pokiemon/"
+},
+{
+  id: 12,
+  title: "Task Manager",
+  description: "A full‑featured task management web app built with React.js. Users can create, edit, track, and delete tasks, each with titles, descriptions, due dates, and completion status. The app persists data using local storage (or your choice of backend) and offers a clean, responsive UI.",
+  image: taskManagerLogo, // import your project thumbnail here
+  tags: ["React JS", "Hooks", "Context API", "CSS Modules", "JavaScript", "Local Storage"],
+  github: "https://github.com/yourusername/task-manager", // update with your actual repo
+  webapp: "https://task-manager-six-indol.vercel.app/", 
+}
+
+
+
+
   ];  
