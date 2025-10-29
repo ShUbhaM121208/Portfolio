@@ -31,11 +31,24 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import shadcnLogo from './assets/tech_logo/shadcn.png';
+import prismaLogo from './assets/tech_logo/prisma.svg';
+import supabaseLogo from './assets/tech_logo/supabase.png';
+import dockerLogo from './assets/tech_logo/docker.png';
+import zodLogo from './assets/tech_logo/zod.svg';
+import websocketLogo from './assets/tech_logo/websocket.png';
+import webrtcLogo from './assets/tech_logo/webrtc.png';
+import awsLogo from './assets/tech_logo/aws.svg';
+import stripeLogo from './assets/tech_logo/stripe.png';
+import clerkLogo from './assets/tech_logo/clerk.ico';
+import convexLogo from './assets/tech_logo/convex.png';
+import aiLogo from './assets/tech_logo/ai.svg';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import infantsoLogo from './assets/company_logo/infantso_logo.png';
+import GVELogo from './assets/company_logo/devsnation_logo.png';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
@@ -71,23 +84,29 @@ export const SkillsInfo = [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
       { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'Shadcn UI', logo: shadcnLogo },
       { name: 'GSAP', logo: gsapLogo },
     ],
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'Node.js', logo: nodejsLogo },
+      { name: 'Express.js', logo: expressjsLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
-      { name: 'Supabase', logo: supaLoga }
+      { name: 'Prisma', logo: prismaLogo },
+      { name: 'Firebase', logo: firebaseLogo },
+      { name: 'Supabase', logo: supabaseLogo },
+      { name: 'Docker', logo: dockerLogo },
+      { name: 'Zod', logo: zodLogo },
+      { name: 'WebSockets', logo: websocketLogo },
+      { name: 'WebRTC', logo: webrtcLogo },
     ],
   },
   {
@@ -101,7 +120,7 @@ export const SkillsInfo = [
     ],
   },
   {
-    title: 'Tools',
+    title: 'Tools & Platforms',
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
@@ -109,30 +128,54 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
+      { name: 'AWS', logo: awsLogo },
+      { name: 'Stripe', logo: stripeLogo },
+      { name: 'Clerk', logo: clerkLogo },
+      { name: 'Convex', logo: convexLogo },
+      { name: 'LLM Integration', logo: aiLogo },
     ],
   },
 ];
 
   export const experiences = [
+      {
+        id: 0,
+        img: infantsoLogo,
+        role: "Full Stack Developer Intern",
+        company: "Infantso",
+        date: "Oct 2024 - Jan 2025",
+        desc: "Developed a scalable e-commerce platform by building a modular React component library featuring product cards, filters, and banners to accelerate front-end development. Designed and optimized Node.js/Express backend services with well-structured MongoDB schemas for efficient catalog search and inventory management. Implemented secure JWT-based authentication with customer and admin roles, ensured responsive UI across all devices, and contributed to CI/CD deployment pipelines for seamless updates.",
+        skills: [
+          "React JS",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "JavaScript",
+          "Tailwind CSS",
+          "JWT Authentication",
+          "CI/CD",
+        ],
+
+
+      },
     {
-      id: 0,
-      img: webverseLogo,
+      id: 1,
+      img: GVELogo,
       role: "Fullstack Developer",
       company: "GVE pvt.ltd",
-      date: "Feb 2025 - May 2025",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      date: "Feb 2025 - present",
+      desc: "Built an AI-powered Electrical Maintenance System using React, Node.js, Express, and PostgreSQL for real-time maintenance, workforce, and inventory management. Integrated LLM and MCP Server for context-aware fault analysis, smart maintenance suggestions, and automated report generation. Implemented role-based dashboards and real-time data synchronization to enhance coordination between supervisors and technicians.",
       skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
         "React JS",
-        "TypeScript",
-        "Node JS",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "JavaScript",
         "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
+        "LLM Integration",
+        "MCP Server",
       ],
+
     },
     // {
     //   id: 1,

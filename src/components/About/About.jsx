@@ -33,11 +33,11 @@ const About = () => {
           </h3>
 
           <p className="text-base sm:text-lg text-gray-400 mt-6 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in building scalable web applications. Skilled in both front-end and back-end development, I specialize in the MERN stack and other modern technologies to create seamless user experiences and efficient solutions. I also completed a 3-month internship, where I gained hands-on experience working on real-world projects, enhancing my problem-solving abilities and deepening my understanding of software development in a collaborative environment.
+            I’m a Full Stack Developer skilled in building AI-driven, real-time web applications using React, Next.js, Node.js, Express, MongoDB, and PostgreSQL. I’ve contributed to scalable systems at G.V.E Pvt. Ltd. and Infantso, integrating LLMs, secure authentication, and CI/CD pipelines to deliver fast and intelligent solutions. With 500+ DSA problems solved, I bring strong analytical and problem-solving skills to design reliable, efficient, and user-focused software.
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1UpGHckDjAIVwY3gH6H1IBykULcn4Uadh/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1bAscJ41DGo-7i2tKrLtgwBDwFRo7b_Sf/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-6 text-lg font-bold transition duration-300 transform hover:scale-105"
