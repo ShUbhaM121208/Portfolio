@@ -65,6 +65,7 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import sufaxiaLogo from './assets/tech_logo/SUFAXIA.png';
 
 import taskManagerLogo from './assets/work_logo/taskManagerLogo.png';
 import pokiemonLogo from './assets/work_logo/pokiemonLogo.png';
@@ -254,6 +255,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Sufaxia",
+      description:
+        "An AI-powered Sufaxia is an AI-powered productivity platform that automatically transcribes Google Meet conversations, manages emails intelligently, and provides meeting insights with summaries, action items, and highlights. designed to streamline workflows and enhance productivity. Built with modern web technologies, Sufaxia offers intelligent automation, real-time collaboration, and seamless integration with various tools to help teams work smarter and more efficiently.",
+      image: sufaxiaLogo,
+      tags: ["MCP","React JS", "DeepGram AI", "Node.js", "TypeScript", "OPENAISDK"],
+      github: "https://github.com/ShUbhaM121208/sufaxia",
+      webapp: "https://perseo-ai-frontend-inky.vercel.app/",
+    },
+    {
+      id: 1,
       title: "Obsy-Agency",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -263,7 +274,7 @@ export const SkillsInfo = [
       webapp: "https://obys-agency-rho-one.vercel.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "REFOCUS",
       description:
         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
@@ -273,7 +284,7 @@ export const SkillsInfo = [
       webapp: "https://refokus-rosy.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Movie App",
       description:
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
@@ -283,7 +294,7 @@ export const SkillsInfo = [
       webapp: "https://movie-app-74l5.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Github Search",
       description:
         "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
@@ -293,7 +304,7 @@ export const SkillsInfo = [
       webapp: "https://github-search-sigma-henna.vercel.app/",
     },
     {
-  id: 4,
+  id: 5,
   title: "Weather App",
   description: "A responsive weather dashboard built with React.js and OpenWeatherMap API. Users can search any city worldwide to get current conditions, temperature, humidity, wind speed, and a 5‑day forecast, with dynamic icons and adaptive theming.",
   image: weatherAppLogo, // import this image at the top of your file
@@ -313,7 +324,7 @@ export const SkillsInfo = [
 //     //   webapp: "https://webversedigital.com/",
 //     // },
     {
-  id: 6,
+  id: 7,
   title: "Quick Stay",
   description:
     "A full‑stack hotel booking platform built with React.js frontend and a Node.js + Express backend, secured with Clerk authentication, and powered by MongoDB for data storage. Users can browse hotels, view room details, book stays, and manage bookings seamlessly.",
@@ -323,7 +334,7 @@ export const SkillsInfo = [
   webapp: "https://quick-stay-gules.vercel.app/"
 },
     {
-  id: 7,
+  id: 8,
   title: "YouTube Clone",
   description:
     "A YouTube‑inspired web app using React and Tailwind, integrating the YouTube Data API to fetch trending and searched videos. Features responsive video playback, infinite scrolling, channel info, and seamless navigation between home, search, and watch pages.",
@@ -344,7 +355,7 @@ export const SkillsInfo = [
 //       webapp: "https://removeyourbg.netlify.app/",
 //     },
     {
-    id: 9,
+    id: 10,
     title: "Password Generator",
     description:
       "A secure, customizable password generator built with React.js. Users can set password length and toggle inclusion of uppercase, lowercase, numbers, and symbols, then copy the generated password for use.",
@@ -354,7 +365,7 @@ export const SkillsInfo = [
     webapp: "https://paasword-generator-phi.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Music Player",
     description:
       "A sleek music streaming app built with Next.js, featuring an intuitive UI, dynamic playlist management, and seamless audio playback. Users can browse tracks, create playlists, and enjoy their favorite music.",
@@ -371,7 +382,7 @@ export const SkillsInfo = [
     webapp: "https://music-nextjs-x2e2.vercel.app/"
 },
 {
-  id: 11,
+  id: 12,
   title: "Pokiemon",
   description:
     "A fun Pokémon-themed quiz app built with HTML, CSS, and JavaScript. Players are shown an image of a Pokémon and must guess its name. Features include score tracking, multiple rounds, and dynamic feedback.",
@@ -381,7 +392,7 @@ export const SkillsInfo = [
   webapp: "https://shubham121208.github.io/pokiemon/"
 },
 {
-  id: 12,
+  id: 13,
   title: "Task Manager",
   description: "A full‑featured task management web app built with React.js. Users can create, edit, track, and delete tasks, each with titles, descriptions, due dates, and completion status. The app persists data using local storage (or your choice of backend) and offers a clean, responsive UI.",
   image: taskManagerLogo, // import your project thumbnail here
